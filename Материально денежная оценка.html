@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Материально денежная оценка</title>
+		<link href="MDO.css" rel="stylesheet" type="text/css"/>
+		<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+		<script type="text/javascript" src="MDO.js"></script>
+	</head>
+	
+	<body>
+
+		<script type="text/javascript">
+
+		var otwet = prompt("В какой группе ты учишся? (Число)");
+
+		var result = otwet;
+
+		if (result == 31 ) {
+			alert("Привет лесник :)");
+		}
+
+		else if (result == 41 ) {
+			alert("Привет лесник :)");
+		}
+
+		else if (result == 21 ) {
+			alert("Привет лесник :)");
+		}
+
+		else (alert("ты же не лесник, зачем тебе это? :)"));
+
+		</script>
+		<div id="main">
+			
+			<div class="header">
+				<div class="clickk">
+				<h3>ВЕДОМОСТЬ Материально денежной оценки</h3>		
+				</div>
+			</div>
+			
+			<div class="left">
+			<div class="lefttext">
+			<h4>Инструкция:</h4>
+				<ul> 
+					<li>Впиши деловую и дровяную древесину.<br/>
+					<li>Нажми на кнопку, соответствующей породы и разряда высот.<br/>
+					<li>NaN тоже самое что и "0".<br/>
+					<li>Округляйте ответы до сотых! (0.01)<br/>
+					<li>Итог пока не считает!<br/>
+					<li>Если нашли ошибки в расчетах сообщите мне.<br/>
+					<a target="_blank" id="silka" href="http://vk.com/id169313351">я в вконтакте</a>
+				</ul>
+			</div>
+			</div>
+			
+			<div class="right">
+
+				<div class="righttext">
+
+				<h4>Порода и разряд высот:</h4>
+			
+				<button id="C1">С1</button>
+				<button id="E1">Е1</button>
+				<button id="B1">Б1</button>
+				<button id="Oc1">Ос1</button><br/><br/>
+				<button id="C2">С2</button>
+				<button id="E2">Е2</button>
+				<button id="B2">Б2</button>
+				<button id="Oc2">Ос2</button><br/><br/>
+				<button id="C3">С3</button>
+				<button id="E3">Е3</button>
+				<button id="B3">Б3</button>
+				<button id="Oc3">Ос3</button><br/><br/>
+				</div>
+
+			</div>
+		<br/>
+		<br/>
+		
+		<div style="clear:both;"></div>
+		
+		<div class="content">
+		<table id="table" border="1px">
+			<tr><td id="th1"><strong>Ступени толщины</strong><td/><td id="th2"><strong>деловой</strong></td><td id="th3"><strong>дровяной</strong></td><td id="th4"><strong>всего дерев.</strong></td><td id="th5"><strong>Крупная</strong></td><td id="th6"><strong>средняя</strong></td><td id="th7"><strong>мелкая</strong></td><td id="th8"><strong>итого дел.</strong></td><td id="th9"><strong>дровяной</strong></td><td id="th10"><strong>всего ликвид</strong></td><td id="th11"><strong>отходы</strong></td></tr>
+			<tr><td id="td1">8<td/><td><input id="val1" type="number" value="0" /></td><td><input id="val2" type="number" value="0"/></td><td><input id="val3" type="number"/></td><td><input id="val100"/></td><td><input id="val1000"/></td><td><input id="val10000"/></td><td><input id="val1d"/></td><td><input id="val1dr"/></td><td><input id="val1l"/></td><td><input id="val1o"/></td></tr>
+			<tr><td id="td2">12<td/><td><input id="val4" type="number" value="0"/></td><td><input id="val5" type="number" value="0"/></td><td><input id="val6" type="number"/></td><td><input id="val200"/></td><td><input id="val2000"/></td><td><input id="val20000"/></td><td><input id="val2d"/></td><td><input id="val2dr"/></td><td><input id="val2l"/></td><td><input id="val2o"/></td></tr>
+			<tr><td id="td3">16<td/><td><input id="val7" type="number" value="0"/></td><td><input id="val8" type="number" value="0"/></td><td><input id="val9" type="number"/></td><td><input id="val300"/></td><td><input id="val3000"/></td><td><input id="val30000"/></td><td><input id="val3d"/></td><td><input id="val3dr"/></td><td><input id="val3l"/></td><td><input id="val3o"/></td></tr>
+			<tr><td id="td4">20<td/><td><input id="val10" type="number" value="0"/></td><td><input id="val11" type="number" value="0"/></td><td><input id="val12" type="number"/></td><td><input id="val400"/></td><td><input id="val4000"/></td><td><input id="val40000"/></td><td><input id="val4d"/></td><td><input id="val4dr"/></td><td><input id="val4l"/></td><td><input id="val4o"/></td></tr>
+			<tr><td id="td5">24<td/><td><input id="val13" type="number" value="0"/></td><td><input id="val14" type="number" value="0"/></td><td><input id="val15" type="number"/></td><td><input id="val500"/></td><td><input id="val5000"/></td><td><input id="val50000"/></td><td><input id="val5d"/></td><td><input id="val5dr"/></td><td><input id="val5l"/></td><td><input id="val5o"/></td></tr>
+			<tr><td id="td6">28<td/><td><input id="val16" type="number" value="0"/></td><td><input id="val17" type="number" value="0"/></td><td><input id="val18" type="number"/></td><td><input id="val600"/></td><td><input id="val6000"/></td><td><input id="val60000"/></td><td><input id="val6d"/></td><td><input id="val6dr"/></td><td><input id="val6l"/></td><td><input id="val6o"/></td></tr>
+			<tr><td id="td7">32<td/><td><input id="val19" type="number" value="0"/></td><td><input id="val20" type="number" value="0"/></td><td><input id="val21" type="number"/></td><td><input id="val700"/></td><td><input id="val7000"/></td><td><input id="val70000"/></td><td><input id="val7d"/></td><td><input id="val7dr"/></td><td><input id="val7l"/></td><td><input id="val7o"/></td></tr>
+			<tr><td id="td8">36<td/><td><input id="val22" type="number" value="0"/></td><td><input id="val23" type="number" value="0"/></td><td><input id="val24" type="number"/></td><td><input id="val800"/></td><td><input id="val8000"/></td><td><input id="val80000"/></td><td><input id="val8d"/></td><td><input id="val8dr"/></td><td><input id="val8l"/></td><td><input id="val8o"/></td></tr>
+			<tr><td id="td9">40<td/><td><input id="val25" type="number" value="0"/></td><td><input id="val26" type="number" value="0"/></td><td><input id="val27" type="number"/></td><td><input id="val900"/></td><td><input id="val9000"/></td><td><input id="val90000"/></td><td><input id="val9d"/></td><td><input id="val9dr"/></td><td><input id="val9l"/></td><td><input id="val9o"/></td></tr>
+			<tr><td id="td10">Итого:<td/><td><input id="val1it" type="number"/></td><td><input id="val2it" type="number"/></td><td><input id="val3it" type="number"/></td><td><input id="val4it"/></td><td><input id="val5it"/></td><td><input id="val6it"/></td><td><input id="val7it"/></td><td><input id="val8it"/></td><td><input id="val9it"/></td><td><input id="val10it"/></td></tr>
+		</table>
+		</div>
+
+
+	</div>
+	</body>
+	
+</html>

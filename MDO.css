@@ -1,0 +1,123 @@
+#main{
+	background:#D3C091;
+	height: 750px;
+}
+
+#silka{
+	
+}
+
+.header{
+	width:100%;
+	height:70px;
+	border:1px solid black;
+	float:left;
+	box-shadow:8px 8px 7px #000000;
+	background:#3643D3;
+}
+
+.click{
+	border:1px solid black;
+	padding:10px;
+	margin-top:100px;
+	width:70px;
+	
+}
+
+.left{
+	width:30%;
+	height:270px;
+	
+	float:left;
+	
+}
+
+.lefttext{
+
+	background:#D3C091;
+	padding:10px;
+	margin-bottom:10px;
+	margin-left:10x;
+	margin-right:10px;
+	margin-top:10px;
+	border:1px solid black;
+	box-shadow:8px 8px 7px #000000;
+}
+
+
+
+.right{
+	width:70%;
+	height:270px;
+	float:right;
+	
+}
+
+.righttext{
+	background:#D3C091;
+	padding:10px;
+	margin-left:10x;
+	margin-top:10px;
+	border:1px solid black;
+	box-shadow:8px 8px 7px #000000;
+}
+
+table{
+	border:1px solid red;
+	background-color:#ffffff;
+	margin-top:10px;
+	font-family:sans-serif;
+}
+
+#td1,#td2,#td3,#td4,#td5,#td6,#td7,#td8,#td9,#td10,#th1,#th2,#th3,#th4,#th5,#th6,#th7,#th8,#th9,#th10,#th11{
+	text-align:center;
+}
+
+
+
+h3{
+	text-align:center;
+	font-family:sans-serif;
+	color:#D3CB3A;
+}
+
+h4{
+	font-family:sans-serif;
+}
+
+ul{
+	font-family:sans-serif;
+}
+
+.content{
+	margin-top:70px;
+	box-shadow:8px 8px 7px #000000;
+}
+
+input{
+	width:150px;
+	opacity: 0.7;
+}
+
+button{
+	font-family:sans-serif;
+}
+
+button:hover{
+	background-color:red;
+	
+}
+
+#test{
+	text-align:center;
+	
+	font-family:sans-serif;
+}
+
+
+
+body{
+	min-width:800px;
+	max-width:1700px;
+
+}
